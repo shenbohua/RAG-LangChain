@@ -1,0 +1,19 @@
+# 敏感信息 / 密钥
+.env
+api.config
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 数据与索引（后面 RAG 阶段会产生）
+data/
+*.faiss
+*.pkl
+chroma/
+
+# IDE
+.vscode/
+.idea/
