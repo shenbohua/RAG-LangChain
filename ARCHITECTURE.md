@@ -4,7 +4,7 @@
 
 ## 当前职责
 
-- test.py：保留的手动联网探索。
+- labs/02_llm_api/api_smoke.py：从根目录 test.py 迁移的手动联网探索，内容保持原样，不作为自动测试。
 - labs：九阶段隔离实验及学习证据。
 - src/agent_learning：共享实现预留，目前不是 Python 包。
 - tests：离线测试预留；evals：非确定性质量评估约定。

@@ -18,7 +18,7 @@ client = OpenAI(
 
 completion = client.chat.completions.create(
     # 模型列表：https://help.aliyun.com/zh/model-studio/getting-started/models
-    model="qwen3.8-max",
+    model="qwen3.5-flash",
     messages=[
         {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": "你是谁？"},
